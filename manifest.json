@@ -1,0 +1,18 @@
+{
+    "name": "SingleX",
+    "version": "1.0.0",
+    "manifest_version":2,
+
+    "app": {
+        "launch": {
+            "web_url": "http://www.singlex.net"
+        },
+        "urls": [
+            "http://www.singlex.net"
+        ]
+    },
+    "description": "SingleX's Blog",
+    "icons": {
+        "128": "icon.png"
+    }
+}
