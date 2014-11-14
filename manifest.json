@@ -1,18 +1,20 @@
 {
-    "name": "SingleX",
+    "name": "CSS Injector",
     "version": "1.0.0",
     "manifest_version":2,
 
-    "app": {
-        "launch": {
-            "web_url": "http://www.singlex.net"
-        },
-        "urls": [
-            "http://www.singlex.net"
-        ]
-    },
-    "description": "SingleX's Blog",
+    "description": "change page styles",
     "icons": {
         "128": "icon.png"
-    }
+    },
+    "content_scripts":[
+        {
+            "matches":["https://github.com/*"],
+            "css":["css/github.css"]
+        },
+        {
+            "matches":["http://*.zhihu.com/*"],
+            "css":["css/zhihu.css"]
+        }   
+    ]
 }
