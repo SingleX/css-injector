@@ -15,6 +15,10 @@
         {
             "matches":["http://*.zhihu.com/*"],
             "css":["css/zhihu.css"]
-        }   
+        },
+        {
+            "matches":["http://nqdeng.github.io/7-days-nodejs/*"],
+            "css":["css/7-days-nodejs.css"]
+        }
     ]
 }
